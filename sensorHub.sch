@@ -8680,7 +8680,7 @@ part number 2062-2P from STA</description>
 <label x="185" y="61" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="VBAT" class="0">
 <segment>
 <pinref part="VR1" gate="G$1" pin="VIN+"/>
 <wire x1="123" y1="110" x2="116" y2="110" width="0.1524" layer="91"/>
@@ -8690,6 +8690,7 @@ part number 2062-2P from STA</description>
 <pinref part="VBAT" gate="G$1" pin="1"/>
 <wire x1="114.52" y1="107.5" x2="114.52" y2="110.04" width="0.1524" layer="91"/>
 <junction x="114.52" y="110.04"/>
+<label x="115" y="110" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -8707,6 +8708,23 @@ part number 2062-2P from STA</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,20.92,98.92,MS1,!RESET,,,,"/>
+<approved hash="104,1,123,110,VR1,VIN+,VBAT,,,"/>
+<approved hash="104,1,123,104,VR1,VIN-,GND,,,"/>
+<approved hash="104,1,151,110,VR1,OUT+,5V,,,"/>
+<approved hash="104,1,151,104,VR1,OUT-,GND,,,"/>
+<approved hash="117,1,64.1,83.68,USB,,,,,"/>
+<approved hash="113,1,17.1277,81.3561,JP1,,,,,"/>
+<approved hash="113,1,67.8177,75.0261,JP2,,,,,"/>
+<approved hash="113,1,137,108.717,VR1,,,,,"/>
+<approved hash="113,1,107.543,81.5626,DHT22,,,,,"/>
+<approved hash="113,1,130.473,81.5626,MOISTURE,,,,,"/>
+<approved hash="113,1,107.333,63.3826,LUX,,,,,"/>
+<approved hash="113,1,130.013,62.9926,SHT10,,,,,"/>
+<approved hash="113,1,107.203,44.1926,C02,,,,,"/>
+<approved hash="113,1,111.303,110.203,VBAT,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
